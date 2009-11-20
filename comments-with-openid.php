@@ -17,8 +17,8 @@ For documentation, please visit http://unixpin.com/wordpress/2009/11/16/wordpres
 
 
 function comments_with_openid() {
-	$plugin_url = '/'.PLUGINDIR.'/'. dirname( plugin_basename(__FILE__) );
-/*	$plugin_url = trailingslashit( get_bloginfo('wpurl') ).PLUGINDIR.'/'. dirname( plugin_basename(__FILE__) ); */
+	/*$plugin_url = '/'.PLUGINDIR.'/'. dirname( plugin_basename(__FILE__) );*/
+	$plugin_url = trailingslashit( get_bloginfo('wpurl') ).PLUGINDIR.'/'. dirname( plugin_basename(__FILE__) ); 
 	$data = '<div>';
 	
 	$OpenIDs = 
