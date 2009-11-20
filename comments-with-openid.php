@@ -5,7 +5,7 @@
 Plugin Name: Comments with OpenId
 Plugin URI: http://unixpin.com/wordpress/2009/11/16/wordpress-plugin-comments-with-openid
 Description: Third party accounts login plugin enables you to allow users to login via third party accounts like Google, Yandex and so on. Based on 'Third Party Accounts Login' plugin of  Anant Garg
-Version: 1.1
+Version: 1.2
 Author: Korolev Igor
 Author URI: http://unixpin.com
 Licence: This WordPress plugin is licenced under the GNU General Public Licence. For more information see: http://www.gnu.org/copyleft/gpl.html
