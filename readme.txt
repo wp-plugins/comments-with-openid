@@ -3,7 +3,7 @@ Contributors: Korolev Igor
 Tags: Comments, Third Party Login, openid, Yandex, Google, LiveJournal, Gmail, Flickr, etc
 Requires at least: 2.0
 Tested up to: 2.8.5
-Stable tag: 1.0
+Stable tag: 1.1
 
 The 'Comments with OpenID' plugin allows to provide user details via OpenID service providers (Google, Yandex, LiveJournal etc.) while commenting.
 
@@ -14,11 +14,13 @@ OpenID service providers (Google, Yandex, LiveJournal etc.) while commenting.
 A working example of the plugin can be found on http://unixpin.com
 
 == Installation ==
-1. Download the plugin file
-2. Extract the archive contents to the wp-content/plugins folder i.e. wp-content/plugins/comments-with-openid
-3. Login to WordPress Administration Center
-4. Activate the plugin
-5. Add the following line in wp-content/themes/YOUR_THEME/comments.php: 
+1. Download and activate the plugin OpenId ( http://wordpress.org/extend/plugins/openid/ )
+2. Download the plugin file
+3. Extract the archive contents to the wp-content/plugins folder i.e. wp-content/plugins/comments-with-openid
+4. Login to WordPress Administration Center
+5. Activate the plugin  ( Menu 'Plugins'->'Comments with OpenId'->Activate )
+6. In menu 'Settings'->'Discussion Settings' enable checkboxes 'Enable OpenID for comments' and 'Do not require name and e-mail for comments left with a verified OpenID'
+7. Add the following line in wp-content/themes/YOUR_THEME/comments.php: 
 	<?php comments_with_openid(); ?>
 	<br/>
 	<label>Or enter your OpenId URL:</label><br/>
@@ -36,6 +38,12 @@ This plugin requires OpenID plugin to be installed.
 
 Contact to me at http://www.unixpin.com/wordpress/2009/11/16/wordpress-plugin-comments-with-openid/
 
+= How to setup not require name and e-mail for comments left with a verified OpenID	? =
+Login to wordpress as admin
+Parameter->Discussion->OpenID Settings
+Select checkboxes "Enable OpenID for comments" and "Do not require name and e-mail for comments left with a verified OpenID"
+
+
 == Screenshots ==
 
 1. Sample of login form
@@ -43,6 +51,8 @@ Contact to me at http://www.unixpin.com/wordpress/2009/11/16/wordpress-plugin-co
 
 == Changelog ==
 
+= 1.1 =
+* Add several OpenId provider ( wordpress, yahoo, Technorati, Vidoop, Verisign, AOL ) 
 = 1.0 =
 * First version
 
