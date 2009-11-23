@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: Korolev Igor
-Tags: Comments, Third Party Login, openid, Yandex, Google, LiveJournal, Gmail, Flickr, etc
+Tags: Comments, Third Party Login, openid, Yandex, Google, LiveJournal, Gmail, Flickr, aol etc
 Requires at least: 2.0
 Tested up to: 2.8.5
 Stable tag: 1.2

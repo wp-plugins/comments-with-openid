@@ -36,7 +36,7 @@ function comments_with_openid() {
 		'Technorati' => array( 'url'=> 'http://technorati.com/people/technorati/USERNAME/', 'start'=> 40, 'end'=> 8, 'sprite'=> 10 ),
 		'Vidoop' => array( 'url'=> 'http://USERNAME.myvidoop.com/', 'start'=> 7, 'end'=> 8, 'sprite'=> 11 ),
 		'Verisign' => array( 'url'=> 'http://USERNAME.pip.verisignlabs.com/', 'start'=> 7, 'end'=> 8, 'sprite'=> 12 ),
-		'AOL' => array( 'url'=> 'http://openid.aol.com/USERNAME', 'start'=> 22, 'end'=> 8, 'sprite'=> 13 )
+		'AOL' => array( 'url'=> 'http://openid.aol.com/USERNAME', 'start'=> 22, 'end'=> 8 )
 	);
 		
 	foreach ($OpenIDs as $openid=>$tp) {
