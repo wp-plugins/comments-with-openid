@@ -14,7 +14,7 @@ OpenID service providers (Google, Yandex, LiveJournal etc.) while commenting.
 A working example of the plugin can be found on http://unixpin.com
 
 == Installation ==
-1. Download and activate the plugin OpenId ( http://wordpress.org/extend/plugins/openid/ )
+1. Download and activate the plugin OpenId ( http://wordpress.org/extend/plugins/openid/ ) 
 2. Download the plugin file
 3. Extract the archive contents to the wp-content/plugins folder i.e. wp-content/plugins/comments-with-openid
 4. Login to WordPress Administration Center
