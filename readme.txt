@@ -20,7 +20,7 @@ A working example of the plugin can be found on http://unixpin.com
 4. Login to WordPress Administration Center
 5. Activate the plugin  ( Menu 'Plugins'->'Comments with OpenId'->Activate )
 6. In menu 'Settings'->'Discussion Settings' enable checkboxes 'Enable OpenID for comments' and 'Do not require name and e-mail for comments left with a verified OpenID'
-7. Add the following line in wp-content/themes/YOUR_THEME/comments.php  between «name-email-url» and «comment» fields: 
+7. Add the following line in wp-content/themes/YOUR_THEME/comments.php  between 'name-email-url' and 'comment' fields: 
 	<?php comments_with_openid(); ?>
 	<br/>
 	<label>Or enter your OpenId URL:</label><br/>
