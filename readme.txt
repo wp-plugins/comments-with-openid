@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: Korolev Igor
-Tags: Comments, Third Party Login, openid, Yandex, Google, LiveJournal, Gmail, Flickr, aol etc
+Tags: Comments, Third Party Login, openid, Yandex, Mail.ru, Google, LiveJournal, Gmail, Flickr, aol etc
 Requires at least: 2.0
-Tested up to: 2.8.5
-Stable tag: 1.2
+Tested up to: 2.9.1
+Stable tag: 1.3
 
 The 'Comments with OpenID' plugin allows to provide user details via OpenID service providers (Google, Yandex, LiveJournal etc.) while commenting.
 
@@ -20,13 +20,13 @@ A working example of the plugin can be found on http://unixpin.com
 4. Login to WordPress Administration Center
 5. Activate the plugin  ( Menu 'Plugins'->'Comments with OpenId'->Activate )
 6. In menu 'Settings'->'Discussion Settings' enable checkboxes 'Enable OpenID for comments' and 'Do not require name and e-mail for comments left with a verified OpenID'
-7. Add the following line in wp-content/themes/YOUR_THEME/comments.php: 
+7. Add the following line in wp-content/themes/YOUR_THEME/comments.php  between «name-email-url» and «comment» fields: 
 	<?php comments_with_openid(); ?>
 	<br/>
 	<label>Or enter your OpenId URL:</label><br/>
 	<input type="text" name="openid_identifier" id="openid_identifier" class="textfield" tabindex="4" style="width:300px" />
 
-For more details, please visit: http://www.unixpin.com/wordpress/2009/11/16/comments-with-openid/ 
+For more details, please visit: http://www.unixpin.com/wordpress/2009/11/16/wordpress-plugin-comments-with-openid
 
 == Frequently Asked Questions ==
 
@@ -50,7 +50,8 @@ Select checkboxes "Enable OpenID for comments" and "Do not require name and e-ma
 
 
 == Changelog ==
-
+= 1.3 =
+* Add mail.ru OpenId provider
 = 1.2 =
 * Correct error with image path
 = 1.1 =
