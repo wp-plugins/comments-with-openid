@@ -3,7 +3,7 @@ Contributors: Korolev Igor
 Tags: Comments, Third Party Login, openid, Yandex, Mail.ru, Google, LiveJournal, Gmail, Flickr, aol etc
 Requires at least: 2.0
 Tested up to: 2.9.1
-Stable tag: 1.3
+Stable tag: 1.4
 
 The 'Comments with OpenID' plugin allows to provide user details via OpenID service providers (Google, Yandex, LiveJournal etc.) while commenting.
 
@@ -50,6 +50,8 @@ Select checkboxes "Enable OpenID for comments" and "Do not require name and e-ma
 
 
 == Changelog ==
+= 1.3 =
+* Correct mail.ru OpenId provider
 = 1.3 =
 * Add mail.ru OpenId provider
 = 1.2 =
