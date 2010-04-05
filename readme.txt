@@ -50,7 +50,7 @@ Select checkboxes "Enable OpenID for comments" and "Do not require name and e-ma
 
 
 == Changelog ==
-= 1.3 =
+= 1.4 =
 * Correct mail.ru OpenId provider
 = 1.3 =
 * Add mail.ru OpenId provider
